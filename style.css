@@ -41,12 +41,14 @@ body{
     margin-bottom: 15px;
 }  
 
-input{
-    padding: 12px;
+.container input{
+    padding:0 15x;
+    height: 55px;
+    font-size: 22px;
     margin-top: 10px;
     border: none;
     border-radius: 5px;
-    width: 250px;
+    width: 350px;
 }
 
 button{
@@ -55,6 +57,9 @@ button{
     background: black;
     border: 1px solid #d4af37;
     color: gold;
+    width: 180px;
+    height: 55px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 8px;
