@@ -17,5 +17,45 @@ function saveData() {
 }
 
 function addTask() {
-    let taskText = document
+    let taskText = document.getElementById("taskInput").value.trim();
+    let taskTime = document.getElementById("taskTime").value;
+
+    if (!taskText) return;
+ 
+    if(!data[selectData]) {
+        data[selectedDate] = { task: [], habits: []};
+    }
+
+    data[selectedDate].tasks.push({
+        text: taskText,
+        time: taskTime,
+        done: false
+    });
+
+    document.getElementById("taskInput").value = "";
+    document.getElementById("taskTime").value = "";
+
+    saveData();
+    render();
+}
+
+function addHabit() {
+    let habitText = documen.getElementById("habitInput").value.trim();
+
+    if (!habitText) return;
+    
+    if(!data[selectedDate]) {
+        data[selectedDate] = { tasks: [], habits: [] };
+    }
+
+    data[selectedDate].habits.push({
+        text: habitText,
+        done: false
+    })
+
+    document.getElementById("taskInput").value = "";
+    document.getElementById("taskTime").value = "";
+
+    saveData();
+    render();
 }
