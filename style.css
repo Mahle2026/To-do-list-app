@@ -155,7 +155,7 @@ li span{
    }
    li{
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     font-size:14px;
    }
 
