@@ -9,8 +9,9 @@ body{
 }
 
 .container{
-    width: 600px;
-    height: 700px;
+    width: 90%;
+    max-height: 700px;
+    max-width: 600px;
     background: #1e1e1e;
     border-end-end-radius: 20px;
     text-align: center;
@@ -27,12 +28,10 @@ body{
 .container h1{
   color: white;
   margin-bottom: 15px;
-  font-size: 40px;
 }
 
 .container p{
     color: #d4af37;
-    font-size: 20px;
     margin-bottom: 30px;
 }
 .input-group{
@@ -64,4 +63,15 @@ button:hover {
     background: black;
     color: #d4af37;
     border: 1px solid #d4af37;
+}
+
+
+
+@media(max-width: 768px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
 }
