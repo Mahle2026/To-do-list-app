@@ -109,8 +109,8 @@ hr{
 }
 
 .app-box {
-    width: 90%;
-    max-width: 500px;
+    width: 700px;
+    height: 600px;
     padding: 30px;
     text-align: center;
     background: #1c1c1c;
