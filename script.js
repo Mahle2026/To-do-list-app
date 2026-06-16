@@ -1,4 +1,4 @@
-function goToApp() {
+function startApp() {
     let name = document.getElementById("nameInput");
     
     if (name === ""){
