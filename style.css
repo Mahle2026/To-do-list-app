@@ -105,8 +105,6 @@ hr{
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    width: 250px;
-    height: 200px;
     padding: 20px;
 }
 
