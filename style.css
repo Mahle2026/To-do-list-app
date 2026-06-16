@@ -43,6 +43,7 @@ body{
 
 .container input{
     padding:0 15x;
+    text-align: center;
     justify-items: center;
     height: 55px;
     font-size: 22px;
