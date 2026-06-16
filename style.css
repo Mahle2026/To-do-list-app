@@ -9,9 +9,8 @@ body{
 }
 
 .container{
-    width: 90%;
-    max-height: 700px;
-    max-width: 600px;
+    height: 700px;
+    width: 600px;
     background: #1e1e1e;
     border-end-end-radius: 20px;
     text-align: center;
