@@ -25,11 +25,14 @@ body{
 
 
 .container h1{
+    font-size: 48px;
   color: white;
   margin-bottom: 15px;
 }
 
 .container p{
+    font-size: 20px;
+    line-height: 1.6;
     color: #d4af37;
     margin-bottom: 30px;
 }
@@ -67,11 +70,11 @@ button:hover {
 
 
 @media(max-width: 768px) {
-    h1{
-        font-size: 20px;
+    .container h1{
+        font-size: 3.5rem;
     }
-    p{
-        font-size: 12px;
+    .container p{
+        font-size: 1.3rem;
     }
 
     input{
