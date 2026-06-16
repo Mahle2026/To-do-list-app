@@ -87,7 +87,11 @@ button:hover {
 
 .app-container{
     width: 95%;
-    min-height: 100vh;
+    min-height: 85vh;
+    max-height: 500px;
+    padding: 25px;
+    background: #111;
+    border-radius: 25px;
 }
 
 #welcome{
