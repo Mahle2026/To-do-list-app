@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Main App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <h2 id="welcome"></h2>
+    <h1>To-Do + Habits</h1>
+    <input type="date" id="datepicker">
+
+<hr>
+
+<h2>Tasks</h2>
+
+<input type="time" id="taskTimer">
+<input type="text" id="taskInput" placeholder="Add task">
+<button onclick="addTask()">Add Task</button>
+
+<ul id="taskList"></ul>
+</hr>
+
+<h2>Habits</h2>
+<input type="text" id="habbitInput" placeholder="Add habit">
+<button onclick="addHabit()">Add Habit</button>
+<ul id="habitList"></ul>
+
+<script src="app.js"></script>
+</body>
+</html>
